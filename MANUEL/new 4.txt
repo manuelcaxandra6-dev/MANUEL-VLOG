@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Text Formatting</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<header>
+    <h1>HTML Text Formatting</h1>
+    <p>Learn how to style and structure text using HTML formatting tags.</p>
+</header>
+
+<body>
+<div class="container card">
+    <h2>Common Text Formatting Tags</h2>
+    <p>HTML provides several tags to format text for emphasis, style, or structure. Here’s a summary:</p>
+
+    <ul>
+        <li><strong><b></strong> – Bold text. <em>Use:</em> Highlight important words.</li>
+        <li><strong><strong></strong> – Important text, usually bold. <em>Use:</em> Emphasize meaning, accessible for screen readers.</li>
+        <li><strong><i></strong> – Italic text. <em>Use:</em> Highlight terms, foreign words, or technical terms.</li>
+        <li><strong><em></strong> – Emphasized text, usually italic. <em>Use:</em> Convey stress or importance in a sentence.</li>
+        <li><strong><mark></strong> – Highlighted text. <em>Use:</em> Draw attention to specific parts of content.</li>
+        <li><strong><small></strong> – Smaller text. <em>Use:</em> For fine print or secondary information.</li>
+        <li><strong><del></strong> – Strikethrough text. <em>Use:</em> Indicate removed or outdated content.</li>
+        <li><strong><ins></strong> – Inserted text, usually underlined. <em>Use:</em> Show new or added content.</li>
+        <li><strong><sub></strong> – Subscript text. <em>Use:</em> Chemical formulas, math indices.</li>
+        <li><strong><sup></strong> – Superscript text. <em>Use:</em> Exponents, footnotes, ordinal numbers.</li>
+    </ul>
+</div>
+
+<div class="container card">
+    <h2>Basic Example Table</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Tag</th>
+            <th>Effect / Use</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td><b></td>
+            <td>Makes text bold.</td>
+            <td>&lt;b&gt;Bold Text&lt;/b&gt;</td>
+        </tr>
+        <tr>
+            <td><i></td>
+            <td>Makes text italic.</td>
+            <td>&lt;i&gt;Italic Text&lt;/i&gt;</td>
+        </tr>
+        <tr>
+            <td><strong></td>
+            <td>Indicates important text.</td>
+            <td>&lt;strong&gt;Important&lt;/strong&gt;</td>
+        </tr>
+        <tr>
+            <td><em></td>
+            <td>Emphasizes text.</td>
+            <td>&lt;em&gt;Emphasized&lt;/em&gt;</td>
+        </tr>
+        <tr>
+            <td><mark></td>
+            <td>Highlights text.</td>
+            <td>&lt;mark&gt;Highlighted&lt;/mark&gt;</td>
+        </tr>
+        <tr>
+            <td><small></td>
+            <td>Smaller text size.</td>
+            <td>&lt;small&gt;Small Text&lt;/small&gt;</td>
+        </tr>
+        <tr>
+            <td><del></td>
+            <td>Strikethrough text.</td>
+            <td>&lt;del&gt;Deleted&lt;/del&gt;</td>
+        </tr>
+        <tr>
+            <td><ins></td>
+            <td>Inserted text (underlined).</td>
+            <td>&lt;ins&gt;Inserted&lt;/ins&gt;</td>
+        </tr>
+        <tr>
+            <td><sub></td>
+            <td>Subscript text.</td>
+            <td>&lt;sub&gt;H₂O&lt;/sub&gt;</td>
+        </tr>
+        <tr>
+            <td><sup></td>
+            <td>Superscript text.</td>
+            <td>&lt;sup&gt;10⁵&lt;/sup&gt;</td>
+        </tr>
+    </table>
+</div>
+
+<div class="container card">
+    <p>By using these formatting tags, you can improve readability, emphasize key points, and structure your text in a clear and professional way.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Now!⋆˚𝜗𝜚˚⋆</title>
+<style>
+  body{
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  table { 
+    border-collapse: collapse; 
+    width: 100%; 
+    max-width: 800px;
+    margin: auto;
+  }
+  th, td { 
+    border: 1px solid black; 
+    padding: 8px; 
+    text-align: left; 
+    vertical-align: top;
+  }
+  input, input[type="email"], textarea, select { 
+    width: 100%; 
+    box-sizing: border-box; 
+    padding: 0;
+    margin: 0;
+    border: none; 
+    font-family: sans-serif;
+    font-size: inherit;
+    border-bottom: 1px solid transparent; 
+  }
+  input[type="checkbox"], input[type="radio"] {
+    width: auto; 
+    margin-right: 5px; 
+    vertical-align: middle;
+  }
+  .full-width { 
+    width: 100%; 
+  }
+  .buttons-container {
+    text-align: center;
+    padding-top: 20px;
+  }
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .skills-list > div {
+    margin-bottom: 5px;
+  }
+</style>
+</head>
+<body>
+<form>
+<table>
+  <tr>
+    <td rowspan="2">Name</td>
+    <td>Surname</td>
+    <td>First Name</td>
+    <td>Middle Name</td>
+  </tr>
+  <tr>
+    <td><input type="text" name="surname"></td>
+    <td><input type="text" name="firstname"></td>
+    <td><input type="text" name="middlename"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Grade Level</td>
+    <td colspan="2">Section</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2"><input type="text" name="grade_level"></td>
+    <td><input type="text" name="section"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Address</td>
+    <td>No.</td>
+    <td>Street</td>
+    <td>Barangay / City</td>
+  </tr>
+  <tr>
+    <td><input type="text" name="address_no"></td>
+    <td><input type="text" name="street"></td>
+    <td><input type="text" name="barangay_city"></td>
+  </tr>
+  <tr>
+    <td rowspan="2">Birthday</td>
+    <td>Month</td>
+    <td>Date</td>
+    <td>Year / Age</td>
+  </tr>
+  <tr>
+    <td><input type="text" name="birth_month"></td>
+    <td><input type="text" name="birth_date"></td>
+    <td><input type="text" name="birth_year_age"></td>
+  </tr>
+  <tr>
+    <td>Contact No</td>
+    <td colspan="3">E-Mail Add</td>
+  </tr>
+  <tr>
+    <td><input type="text" name="contact_no"></td>
+    <td colspan="3"><input type="text" name="email"></td>
+  </tr>
+</table>
+
+<div class="buttons-container">
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <button type="button" onclick="window.print()">Print</button>
+</div>
+</form>
+</body>
+</html>

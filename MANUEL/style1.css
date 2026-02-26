@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Comic Sans MS",Arial serif;
+    background-image: url('https://i.pinimg.com/736x/7c/61/9b/7c619b7a33e8bf57aa513fc26590125f.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+header {
+    background-image: url('https://i.pinimg.com/736x/24/6a/3b/246a3b3807d6fc72e75e9ccac55d4c63.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 4px solid #ffeb3b;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+
+.card {
+    background: #fda4ba;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 22px;
+    box-shadow: 0 10px 22px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 35px #FF00FF;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+

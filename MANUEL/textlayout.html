@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Layout: Box Model, Float, and Offsets</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<header>
+    <h1>CSS Layout: Box Model, Float, and Offsets</h1>
+    <p>Learn the fundamental CSS concepts for positioning and spacing elements on a webpage.</p>
+</header>
+
+<body>
+<div class="container card">
+    <h2>1. Box Model</h2>
+    <p>The CSS <strong>box model</strong> describes the structure of every HTML element as a rectangular box consisting of:</p>
+    <ul>
+        <li><strong>Content:</strong> The text, image, or media inside the box.</li>
+        <li><strong>Padding:</strong> Space between the content and the border.</li>
+        <li><strong>Border:</strong> The edge surrounding the padding.</li>
+        <li><strong>Margin:</strong> Space outside the border separating it from other elements.</li>
+    </ul>
+    <p><em>Example:</em></p>
+    <code>div { padding: 10px; border: 2px solid black; margin: 20px; }</code>
+</div>
+
+<div class="container card">
+    <h2>2. Float</h2>
+    <p>The <strong>float</strong> property is used to position elements to the left or right of their container, allowing other content to wrap around them.</p>
+    <ul>
+        <li><strong>float: left;</strong> – Moves the element to the left.</li>
+        <li><strong>float: right;</strong> – Moves the element to the right.</li>
+        <li><strong>clear:</strong> Used to prevent elements from wrapping around a floated element.</li>
+    </ul>
+    <p><em>Example:</em></p>
+    <code>img { float: left; margin-right: 10px; }</code>
+</div>
+
+<div class="container card">
+    <h2>3. Offsets (Positioning)</h2>
+    <p>Offsets are controlled with the <strong>position</strong> property, which determines how an element is positioned on the page:</p>
+    <ul>
+        <li><strong>static:</strong> Default position; elements follow normal flow.</li>
+        <li><strong>relative:</strong> Positioned relative to its normal position. Use <code>top, right, bottom, left</code> to adjust.</li>
+        <li><strong>absolute:</strong> Positioned relative to the nearest positioned ancestor.</li>
+        <li><strong>fixed:</strong> Stays in the same place even when scrolling.</li>
+        <li><strong>sticky:</strong> Switches between relative and fixed based on scroll position.</li>
+    </ul>
+    <p><em>Example:</em></p>
+    <code>div { position: relative; top: 20px; left: 10px; }</code>
+</div>
+
+<div class="container card">
+    <h2>Summary Table</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Concept</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>Box Model</td>
+            <td>Defines content, padding, border, and margin of elements.</td>
+            <td>div { padding: 10px; border: 2px solid black; margin: 20px; }</td>
+        </tr>
+        <tr>
+            <td>Float</td>
+            <td>Positions elements left or right, allowing text to wrap around.</td>
+            <td>img { float: left; margin-right: 10px; }</td>
+        </tr>
+        <tr>
+            <td>Position / Offsets</td>
+            <td>Controls the element's placement with top, bottom, left, right values.</td>
+            <td>div { position: relative; top: 20px; left: 10px; }</td>
+        </tr>
+    </table>
+</div>
+
+<div class="container card">
+    <p> 𝜗ৎ Create a travel brochure incorporating the different tags and attribute about Formatting Layouts. Make it Unique and Original..</p>
+</div>
+</body>
+</html>

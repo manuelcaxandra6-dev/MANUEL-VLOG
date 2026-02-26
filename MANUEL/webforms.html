@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Web Forms</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<header>
+    <h1>HTML Web Forms</h1>
+    <p>Learn how to create interactive forms to collect information from users.</p>
+</header>
+
+<body>
+<div class="container card">
+    <h2>1. Form Basics</h2>
+    <p>The <strong>form</strong> element is used to collect user input and send it to a server. Key attributes include:</p>
+    <ul>
+        <li><strong>action</strong> – The URL where the form data is sent.</li>
+        <li><strong>method</strong> – Specifies the HTTP method (GET or POST).</li>
+        <li><strong>enctype</strong> – Specifies encoding type, e.g., multipart/form-data for file uploads.</li>
+    </ul>
+</div>
+
+<div class="container card">
+    <h2>2. Input Fields</h2>
+    <p>Common input types for collecting data:</p>
+    <ul>
+        <li><strong>text</strong> – Single-line text input. Example: <input type="text" name="username"></li>
+        <li><strong>password</strong> – Hides typed characters. Example: <input type="password"></li>
+        <li><strong>email</strong> – Validates email format. Example: <input type="email"></li>
+        <li><strong>number</strong> – Accepts numeric input. Example: <input type="number"></li>
+        <li><strong>checkbox</strong> – Allows multiple selections. Example: <input type="checkbox"></li>
+        <li><strong>radio</strong> – Allows single selection in a group. Example: <input type="radio"></li>
+        <li><strong>submit</strong> – Sends the form. Example: <input type="submit"></li>
+        <li><strong>reset</strong> – Resets the form. Example: <input type="reset"></li>
+    </ul>
+</div>
+
+<div class="container card">
+    <h2>3. Other Form Elements</h2>
+    <ul>
+        <li><strong>label</strong> – Defines labels for inputs. Improves accessibility. Example: <label for="username">Username</label></li>
+        <li><strong>textarea</strong> – Multi-line text input. Example: <textarea name="message"></textarea></li>
+        <li><strong>select</strong> – Drop-down menu for selecting options. Example: 
+            <select>
+                <option>Option 1</option>
+                <option>Option 2</option>
+            </select>
+        </li>
+        <li><strong>button</strong> – Clickable button, can be used for submit/reset/custom actions.</li>
+        <li><strong>fieldset</strong> – Groups related form elements with a border.</li>
+        <li><strong>legend</strong> – Adds a caption to a fieldset.</li>
+    </ul>
+</div>
+
+<div class="container card">
+    <h2>4. Form Example</h2>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female<br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobby" value="reading"> Reading
+        <input type="checkbox" name="hobby" value="sports"> Sports<br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br><br>
+
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</div>
+
+<div class="container card">
+    <p> 𝜗ৎ Create a school registration form for the upcoming Early Registration for Grade 7 and SHS.</p>
+</div>
+</body>
+</html>
